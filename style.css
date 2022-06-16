@@ -12,20 +12,10 @@
       --black-nv-: rgb(17, 13, 6);
      
   }
-/* 
-  * {
-      border: 2px solid red;
-  }  */
 
 body {
     font-family: var(--font);
-    /* background-image:url(./img/barriles.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
-    /* height:auto; */
-    width: 100vw;
-    
-}
+  }
 
 .logo {
     height: 95%;
@@ -139,7 +129,7 @@ li:hover {
     background-size: cover;
     background-repeat: no-repeat;
     height:auto;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -187,50 +177,49 @@ p {
     border-radius: 50px;
     
 }
- /* Barra de posicion fija */
+ /* Barra de posicion fija
 .slider {
-    border: 2px solid black;
-    border-radius: 15px;
-    align-items: center;
+    /* border: 2px solid black; */
+    /* border-radius: 15px; */
+    /* align-items: center;
+    width: 100%;
     height: 40px;
     background: grey;
-    opacity: 0.8;
-    position: sticky;
-    top: 0;
+    opacity: 0.5; */
+    /* position: sticky; */
+    /* top: 0; */
 }
   /* Texto de la barra fija */
-h2 {
+/* h2 {
     font-family: Bebas;
     font-size: 2rem;
-    color: black;
+    color: white;
     margin-left: 40%;
-}
+} */
   /* Contenedor del texto de la Hist. de la Cerv */
-.scroll{
+/* .scroll{
     /* border: 2px solid red; */
-    width: auto;
+    /* width: auto;
     height: auto;
-    background-color: black;
-}
- 
+    background-color: black; */
+/* } */
+/*  
 .history {
     width: 70%;
     margin: 0 auto;
     height: auto;
-}
- /* Texto de la historia de la cerveza */
+} */ 
+ 
 .parrafo {
     color: #e4d404;
     font-size: 22px;
-}
+} 
 
 /* Seccion 3  */
-.seccion-tres{
-    padding: 6rem 0;
-    /* background:var(--yellow-bg-); */
-    background: rgb(3,2,0);
-    background: linear-gradient(180deg, rgba(3,2,0,1) 11%, rgba(228,241,12,1) 72%, rgba(241,255,0,1) 83%);
-    height: auto;
+.seccion-tres {
+    padding: 1rem 0;
+    background: linear-gradient(180deg, rgba(3,2,0,1) 11%, rgb(203, 212, 21) 72%, #e4d404 83%);
+    height: 100vh;
     display: block;
 }
   /*  "algo de lo nuestro" */
@@ -266,7 +255,7 @@ h2 {
     width: 30vh;
     margin-bottom: 1rem;
     border-radius: 20px;
-    box-shadow: 10px 1px 1px black;
+    box-shadow: 5px 1px 1px black;
   }
   
   .lata-container {
@@ -289,10 +278,8 @@ h2 {
 
 /* Seccion 4  */
 .seccion-cuatro{
-    padding: 6rem 0;
-    /* background:var(--yellow-bg-); */
-    background: rgb(250, 249, 248);
-    /* background: linear-gradient(0deg, rgba(3,2,0,1) 11%, rgba(228,241,12,1) 72%, rgba(241,255,0,1) 83%); */
+    padding: 2rem 0;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,249,248,1) 100%);
     height: auto;
     display: block;
 }
@@ -303,14 +290,13 @@ h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 5px;
     margin-left: 10px;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
   }
   
   .seccion-cuatro p {
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     color: var(--black-nv-);
     max-width: 360px;
     margin: 1rem auto 3rem auto;
@@ -357,6 +343,133 @@ h2 {
     -o-transform: rotate(359deg);
     -webkit-transform: rotate(359deg);
 }
+
+/* Seccion-cinco Nuestros Clientes */
+.cliente-container {
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+ }
+
+.cliente-container h2 {
+    color:var(--black-nv-);
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    /* margin-bottom: 15vh;   */
+    /* border: 2px solid red; */
+    height: 80px;
+    width: 100vh;
+  }
+
+ .cliente-container p  {
+    /* border: 2px solid red;  */
+    color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+ }
+
+  .cliente {
+    display:flex;
+    flex-direction: row;
+    margin: 30px;
+    /* border: 2px solid red; */
+}
+  .info-cliente {
+    width: 20vh;
+    height: 20vh;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+
+}
+.cliente:hover {
+    transition: 0.5s;
+    transform: scale(1.1); 
+}
+ /* Footer */
+
+.foot {
+    background: var(--black-nv-);
+    height: 120px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    
+}
+h7 {
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: Smooch;
+}
+
+.fone {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 25px;
+}
+
+.contact {
+    margin-left: 30px;
+}
+
+.list {
+    list-style: none;
+    color:whitesmoke;
+    margin-top: 15px;
+    margin-left: 10px;   
+}
+
+.cont-log-fb{
+    margin-top: 15px;
+    height: 70px;
+}
+
+.cont-log{
+    margin-top: 24px;
+    height: 52px;
+}
+
+.ubic-log{
+    display: flex;
+    flex-direction: ;
+    gap: 15px;
+    margin-right: 74px;
+    
+}
+
+.whatsapp {
+    position:fixed;
+    width:52px;
+    height:52px;
+    bottom:28px;
+    right:25px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center ;
+    font-size:40px;
+    
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:5px;
+  }
 @media (max-width: 1024px) { 
 
    /* *{border: 2px solid red;}  */
@@ -476,20 +589,22 @@ h2 {
         height:auto;
         display: flex;
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
         gap: 15px;
         padding-bottom: 20px;
         
     }
     
     .hero {
-        /* border: 2px solid red; */
-        width: auto;
+        border: 2px solid red;
+        width: 380px;
         height:auto;
-        margin-left: 10px;
+        margin-left: 20%;
         background: var(--black-nv-);
         border-radius: 50px;
         opacity: 0.8;
+        margin-top: 30px;
+        text-align: center;
     }
     
     h3 {
@@ -510,9 +625,9 @@ h2 {
     .hero-sec {
         /* border: 2px solid red; */
         height: auto;
-        width: auto;
+        width: 150px;
         margin-top: 20px;
-        margin-left: 10px;
+        margin-right: 65vh;
         border-radius: 50px;
         opacity: 0.9;
        }
@@ -524,47 +639,109 @@ h2 {
         
     }
 
-    .slider {
-        border: 2px solid black;
-        border-radius: 15px;
-        height: 30px;
+    /* .slider {
+        /* border: 2px solid black; */
+        /* border-radius: 15px; */
+        /* height: 30px;
         background: gray;
-        opacity: 0.8;
-        position: sticky;
-        top: 0;
-        margin: 0 auto;
-     }
+        opacity: 0.8; */
+        /* position: sticky;
+        top: 0; */
+        /* margin: 0 auto;
+     } */
     
-     h2 {
+     /* h2 {
         font-family: Bebas;
-        color: black;
+        color: black; */
         /* margin: 0 auto; */
-        margin-left: 30%;
+        /* margin-left: 30%;
         font-size: 22px;
-    }
+    } */
    
     
-    .scroll{
+    /* .scroll{
         /* border: 2px solid red; */
-        width: auto;
+        /* width: auto;
         height: auto;
-    }
-    
-    .history {
+    } */
+     
+    /* .history {
         width: 70%;
         height: auto;
         margin: 0 auto;
+    } */ 
+    
+    .seccion-tres {
+        height: auto;
+        background-size: cover;
+        /* border: 2px solid red;  */
     }
 
     .lata-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
      }
 
+     .cliente-container h2 {
+        color:var(--black-nv-);
+        font-size: 2rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 20px;
+        margin-bottom: 5vh;  
+        /* border: 2px solid red; */
+        height: 100px;
+        width: 100;
+      }
+     
+      .foot {
+        background: var(--black-nv-);
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        gap: 25px;
+    }
 
+    h7 {
+        /* border: 2px solid red; */
+        margin-left: 5vh;
+        color: whitesmoke;
+        font-size: 3rem;
+        font-family: Smooch;
+    }
+
+    .ubic-log{
+        display: flex;
+        gap: 15px;
+        margin-left: 37vh;
+       
+    }
     
-
+    .whatsapp {
+        position:fixed;
+        width:52px;
+        height:52px;
+        bottom:17px;
+        right:22px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center ;
+        font-size:40px;
+        
+        z-index:100;
+      }
+      
+      .whatsapp-icon {
+        margin-top:5px;
+      }
+    
 }
    
 
