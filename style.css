@@ -596,7 +596,7 @@ h7 {
     }
     
     .hero {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 380px;
         height:auto;
         margin-left: 20%;
