@@ -754,35 +754,31 @@ h7 {
             box-shadow: 0 0 60px;
             align-items: center;
             
-            border: 2px solid red; 
           }
-         
-          .logo{
-            margin-left: 80px;
-          }
-
+       
         .hero-sec {
             /* border: 2px solid red; */
             height: auto;
             width: auto;
-            margin-right: 40%;
+            margin-left: 10vh;
             border-radius: 50px;
             opacity: 0.9;
           
         }
          /* Imagen Belldorf fondo blanco */
         .bellsect {
-            width: 400px;
+            width: 300px;
             height: 150px;
             border-radius: 50px;
-            border: 2px solid red;
+            margin-left: 30vh;
+            /* border: 2px solid red; */
             
         }
         .hero {
             /* border: 2px solid red; */
-            width: 200px;
+            width: 300px;
             height:auto;
-            margin-left: 40%;
+            margin-left: 5%;
             background: var(--black-nv-);
             border-radius: 50px;
             opacity: 0.8;
@@ -867,7 +863,7 @@ h7 {
             width: auto;
             display: flex;
             flex-direction: column;
-            margin-left: 50px;
+            
             padding: 5px;
             gap: 25px;
         }
@@ -883,7 +879,7 @@ h7 {
         .ubic-log{
             display: flex;
             gap: 15px;
-            margin-left: 20vh;
+            margin-left: 30vh;
            
         }
         
